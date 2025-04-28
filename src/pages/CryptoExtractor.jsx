@@ -13,7 +13,7 @@ function CryptoExtractor() {
       return;
     }
 
-    setLoading(true);
+    setLoading(true); 
     setError('');
     setResult(null);
 

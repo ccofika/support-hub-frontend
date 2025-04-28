@@ -15,7 +15,7 @@ function Header() {
   return (
     <header style={styles.header}>
       <Link to="/" style={{ ...styles.logo, textDecoration: 'none', color: 'white' }} onClick={closeMenu}>
-        mshub
+        MS Hub
       </Link>
 
       <div className="hamburger" style={styles.hamburger} onClick={toggleMenu}>
